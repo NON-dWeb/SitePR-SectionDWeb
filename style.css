@@ -1,7 +1,8 @@
 nav{padding: 0%;margin: 0%;}
 nav li{ display:inline-flex; justify-content: center;
 list-style:none;}
-#big title{}
+@font-face{font-family:DESIGNER ;src: url(DESIGNER.TTF);}
+#big title{ font-family:"DESIGNER";}
 nav a{display: inline-block}
 #menu1{display: flex; justify-content: center;}
 #menu2{display: flex; justify-content: center;}
