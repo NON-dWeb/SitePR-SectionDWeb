@@ -11,4 +11,5 @@ nav a{display: inline-block}
 #menu7{display: flex; justify-content: center;}
 #menu8{display: flex; justify-content: center;}
 #menu9{display: flex; justify-content: center;}
+#obj{ display: flex;flex-direction: column;align-items: center;justify-content: center;}
 
