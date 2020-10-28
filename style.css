@@ -1,12 +1,21 @@
 /* menu */
 nav{padding: 0%;margin: 0%;}
-nav li{ display:inline-flex; justify-content: center;
-list-style:none;}
+head{display: flex;
+justify-content: space-between;align-items: center; }
+nav li{ display:inline-block; justify-content: center;padding: 0px 20px;text-align: center;
+list-style:none;justify-content: space-between;align-items: center; }
+nav li a {list-style: none;
+    transition: all 0.3 ease 0s; 
+}
+nav li a:hover {
+    color: #0088a9; 
+}
+
 /* @font-face{font-family:"DESIGNER" ;src:local(.);} */
 @font-face {
     font-family: designer;
     src: url(DESIGNER.TTF); }
-#big-title{ font-family:"designer"; ;font-size: 300pt;display: flex;justify-content: center;margin: 0mm;margin-bottom: 10%;}
+#big-title{ font-family:"designer"; ;font-size: 300pt;display: flex;justify-content: center;margin: 0mm;margin-bottom: 10%; }
 nav a{display: inline-block}
 #menu1{display: flex; justify-content: center;}
 #menu2{display: flex; justify-content: center;}
