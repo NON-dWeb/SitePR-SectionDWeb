@@ -6,7 +6,7 @@ list-style:none;}
 @font-face {
     font-family: designer;
     src: url(DESIGNER.TTF); }
-#big-title{ font-family:"designer"; ;font-size: 300pt;display: flex;justify-content: center;}
+#big-title{ font-family:"designer"; ;font-size: 300pt;display: flex;justify-content: center;margin: 0mm;margin-bottom: 10%;}
 nav a{display: inline-block}
 #menu1{display: flex; justify-content: center;}
 #menu2{display: flex; justify-content: center;}
