@@ -1,4 +1,23 @@
+/* menu */
 nav{padding: 0%;margin: 0%;}
 nav li{ display:inline-flex; justify-content: center;
 list-style:none;}
+/* @font-face{font-family:"DESIGNER" ;src:local(.);} */
+@font-face {
+    font-family: designer;
+    src: url(DESIGNER.TTF); }
+#big-title{ font-family:"designer"; ;font-size: 300pt;display: flex;justify-content: center;margin: 0mm;margin-bottom: 10%;}
 nav a{display: inline-block}
+#menu1{display: flex; justify-content: center;}
+#menu2{display: flex; justify-content: center;}
+#menu3{display: flex; justify-content: center;}
+#menu4{display: flex; justify-content: center;}
+#menu5{display: flex; justify-content: center;}
+#menu6{display: flex; justify-content: center;}
+#menu7{display: flex; justify-content: center;}
+#menu8{display: flex; justify-content: center;}
+#menu9{display: flex; justify-content: center;}
+#obj{ display: flex;flex-direction: column;align-items: center;justify-content: center;}
+#txt1{display:flex ;justify-content:center; text-align: center;}
+#txt2{display: flex; justify-content: center;text-align: center;}
+#txt3{display: flex; justify-content: center;text-align: center;}
