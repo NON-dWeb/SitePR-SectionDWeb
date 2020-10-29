@@ -30,3 +30,4 @@ nav a{display: inline-block}
 #txt1{display:flex ;justify-content:center; text-align: center;}
 #txt2{display: flex; justify-content: center;text-align: center;}
 #txt3{display: flex; justify-content: center;text-align: center;}
+#home{height: 900px; width: 100%; background-image: url(color.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; position: absolute; left: 0; z-index: -1; filter: blur(4px) ;}
