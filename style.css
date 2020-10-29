@@ -6,10 +6,10 @@ justify-content: space-between;align-items: center; }
 @font-face {
     font-family: designer;
     src: url(DESIGNER.TTF); }
-#home-big-title{ font-family:"designer"; ;font-size: 35em; text-align:center;margin: 0em;}
-#home{ top: 80px;;height: 900px; width: 100%; background-image: url(color.jpg); background-position: center; background-size: cover; position: absolute;background-repeat: no-repeat;  left: 0; z-index: -1; filter: blur(4px);}
+#home-big-title{ font-family:"designer"; ;font-size: 35em; text-align:center; margin: 0em;}
+#home{top: 80px;;height: 900px; width: 100%; background-image: url(color.jpg); background-position: center; background-size: cover; position: absolute;background-repeat: no-repeat;  left: 0; z-index: -1; filter: blur(4px);}
 
-  header{display: block;height: 900px;}
+  header{display: block;height: 900px; text-align: center;}
 
   #txt{ display: block;align-items: center;text-align: center;}
 
@@ -106,3 +106,4 @@ background:   rgb(100, 110, 73);;
             font-size: 1rem;
         }
 }
+#famas{display: block;align-content: center;}
