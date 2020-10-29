@@ -12,7 +12,7 @@ function hautBas() {
 
 function loaded() {
     titre = document.querySelector("#home-big-title")
-    titre.style.position = "absolute";
+    //titre.style.position = "absolute";
 
     requestAnimationFrame(hautBas);
 }
