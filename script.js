@@ -1,4 +1,4 @@
-const titre=document.querySelector("home big-title")
+const titre=document.querySelector("header")
 titre.style.position = "absolute";
 let topPos = 0;
 let dir =-1;
