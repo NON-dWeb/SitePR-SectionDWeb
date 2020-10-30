@@ -1,12 +1,12 @@
-let bottomPos = -150;
+let bottomPos = -160;
 let dir = -1;
 var titre;
 
 function hautBas() {
-    if (topPos == 300) { dir = 1 }
-    else if (topPos == -50) { dir = -1 }
-    topPos += -2 * dir; 
-    titre.style.top = `${topPos}px`; 
+    if (bottomPos == -148) { dir = 1 }
+    else if (bottomPos == -200) { dir = -1 }
+    bottomPos += -2 * dir; 
+    titre.style.bottom = `${bottomPos}px`; 
     requestAnimationFrame(hautBas);
 }
 
