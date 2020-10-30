@@ -1,4 +1,4 @@
-let topPos = 0;
+let bottomPos = -150;
 let dir = -1;
 var titre;
 
@@ -16,3 +16,4 @@ function loaded() {
 
     requestAnimationFrame(hautBas);
 }
+
