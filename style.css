@@ -14,7 +14,7 @@ justify-content: space-between;align-items: center; }
   #txt{ display: block;align-items: center;text-align: center;}
 
   a {
-	text-decoration: none;
+	text-decoration: none; 
 }
 
 .et-hero-tabs,
