@@ -25,7 +25,7 @@ justify-content: space-between;align-items: center; }
 
   header{display: block;height: 900px; text-align: center;}
 
-  #txt{ display: block;align-items: center;text-align: center;}
+  #txt{ display: block;align-items: center;text-align: center;margin-top: 5cm;}
 
   a {
 	text-decoration: none; 
@@ -117,4 +117,4 @@ background:   rgb(100, 110, 73);;
             font-size: 1rem;
         }
 }
-#famas{display: block;align-content: center;}
+#famas{display: block;align-content: center; }
