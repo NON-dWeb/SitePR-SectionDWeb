@@ -71,6 +71,7 @@ justify-content: space-between;align-items: center; }
     background: #fff;
     z-index: 50;
     position: fixed;
+    font-family: 'Oswald', sans-serif;
 }
 
 #nav--top {
@@ -158,4 +159,7 @@ background:   rgb(100, 110, 73);;
 }
 #menu1s{margin-bottom: 5.5cm;
 
+}
+#txt{
+    font-family: 'Oswald', sans-serif;
 }
