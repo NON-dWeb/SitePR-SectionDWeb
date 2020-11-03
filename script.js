@@ -1,19 +1,16 @@
-let bottomPos = -160;
-let dir = -1;
-var titre;
-
-function hautBas() {
-    if (bottomPos == -148) { dir = 1 }
-    else if (bottomPos == -200) { dir = -1 }
-    bottomPos += -2 * dir; 
-    titre.style.bottom = `${bottomPos}px`; 
-    requestAnimationFrame(hautBas);
-}
-
-function loaded() {
-    titre = document.querySelector("#famas")
-    titre.style.position = "absolute";
-
-    requestAnimationFrame(hautBas);
-}
+$(title).ready(function(){
+    function marqueePlay(){
+        $("#home-big-title").animate(
+            {
+            left: $(window).width() - $("#home-big-title").width(),
+            opacity: 0
+            }, 10000, function(){
+                $("#home-big-title").css("left", 0);
+                $("#home-big-title").css("opacity", 1);
+                marqueePlay();
+            }
+        );
+    }
+    marqueePlay();
+}); 
 
