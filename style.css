@@ -7,7 +7,21 @@ justify-content: space-between;align-items: center; }
     font-family: designer;
     src: url(DESIGNER.TTF); }
 #home-big-title{ font-family:"designer"; ;font-size: 35em; text-align:center; margin: 0em;}
-#home{top: 80px;;height: 900px; width: 100%; background-image: url(color.jpg); background-position: center; background-size: cover; position: absolute;background-repeat: no-repeat;  left: 0; z-index: -1; filter: blur(4px);}
+#home{
+    
+    background-image:url(color.jpg);
+
+    top: 80px;
+    height:900px;
+    width: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    left: 0; 
+    z-index: -1; 
+    filter: blur(4px);
+}
 
   header{display: block;height: 900px; text-align: center;}
 
