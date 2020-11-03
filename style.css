@@ -124,34 +124,3 @@ background:   rgb(100, 110, 73);;
             font-size: 1rem;
         }
 }
-#menu2i{ 
-    background-image: url(ecole-formation-gratuite-simplon-4-\(1\)__620_413___medialibrary_original_620_413.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    height: 400px;
-    z-index: -1;
-    filter: blur(2px);
-}
-#menulogo2{
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    transform: translate(-50%, -400%);
-    margin: 0px auto;
-    left: 50%;
-
-}
-#menutxt2{
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    top: 0px;
-    width: 100%;
-    margin: 0px auto;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    height: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
