@@ -21,7 +21,7 @@ justify-content: space-between;align-items: center; }
     #home{
     background-image:url(color.jpg);
     top: 80px;
-    height:800px;
+    height:1000px;
     width: 100%;
     background-attachment:fixed;
     background-position:center;
