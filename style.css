@@ -6,7 +6,9 @@ justify-content: space-between;align-items: center; }
 @font-face {
     font-family: designer;
     src: url(DESIGNER.TTF); }
-#title{ font-family:"designer";
+
+    #title{ 
+    font-family:"designer";
     font-size: 16em; 
     text-align:center; 
     margin: 0em;
@@ -15,10 +17,11 @@ justify-content: space-between;align-items: center; }
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#home{
+
+    #home{
     background-image:url(color.jpg);
     top: 80px;
-    height:900px;
+    height:1000px;
     width: 100%;
     background-attachment:fixed;
     background-position:center;
@@ -28,12 +31,6 @@ justify-content: space-between;align-items: center; }
     z-index: -1;
     filter: blur(4px);
 }
-#famas{
-    display: block;
-    align-content: center; 
-}
-
-  header{display: block;height: 900px; text-align: center;}
 
   #txt{ display: block;align-items: center;text-align: center;margin-top: 5cm;}
 
@@ -127,4 +124,3 @@ background:   rgb(100, 110, 73);;
             font-size: 1rem;
         }
 }
-#famas{display: block;align-content: center; }
