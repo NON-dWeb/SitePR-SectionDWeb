@@ -21,7 +21,7 @@ justify-content: space-between;align-items: center; }
     #home{
     background-image:url(color.jpg);
     top: 80px;
-    height:1000px;
+    height:650px;
     width: 100%;
     background-attachment:fixed;
     background-position:center;
@@ -155,4 +155,7 @@ background:   rgb(100, 110, 73);;
     height: 400px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+#menu1s{margin-bottom: 5.5cm;
+
 }
