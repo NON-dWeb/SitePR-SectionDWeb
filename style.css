@@ -146,11 +146,19 @@ background:   rgb(100, 110, 73);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-#menu1s{margin-bottom: 5.5cm;
+#menu1s{margin-bottom: 5.5cm;;
 
 }
+#menu1i{
+  background-image: url(fond-interogation.png);
+  background-size:cover; 
+  background-position-y: -50px
+  background-repeat: no-repeat;
+  height: 350px;
+  
+}
 #txt{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;padding-bottom: 10cm
 }
 
 * {box-sizing:border-box}
