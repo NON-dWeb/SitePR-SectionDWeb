@@ -73,9 +73,10 @@ justify-content: space-between;align-items: center; }
     position: fixed;
     font-family: 'Oswald', sans-serif;
 }
+.marginmenu{padding-top: 110px;}
 
 #nav--top {
-        position: fixed;
+        position: absolute;
         top: 0;
     }
 
@@ -154,7 +155,7 @@ background:   rgb(100, 110, 73);
   background-size:cover; 
   background-position-y: -50px
   background-repeat: no-repeat;
-  height: 350px;
+  height: 250px;
   
 }
 #txt{
