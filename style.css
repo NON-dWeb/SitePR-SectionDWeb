@@ -237,3 +237,26 @@ background:   rgb(100, 110, 73);
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.bibi-emoji-heart-eyes
+
+.bibi-emoji-frown {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ce0033;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  overflow: visible;
+  outline:hover;
+  background-color: transparent;
+  border: 1px solid transparent;
+      border-top-color: black;
+      border-right-color: black;
+      border-bottom-color: black;
+      border-left-color: black;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
